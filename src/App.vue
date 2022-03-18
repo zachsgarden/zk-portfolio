@@ -2,9 +2,8 @@
   <div>
     <Hero />
     <div class="spacer layer1"></div>
-
     <AboutMe />
-
+    <div class="spacer layer2"></div>
     <ProfessionalHistory />
 
   </div>
@@ -53,6 +52,10 @@
     font-family: 'Bebas Neue', sans-serif;
   }
 
+  p {
+    line-height: 1.875em;
+  }
+
   section {
     min-height: 400px;
     padding: 100px 20vw;
@@ -81,7 +84,11 @@
   }
 
   .layer1 {
-    background-image: url('./assets/wave.svg');
+    background-image: url('./assets/wave1.svg');
+  }
+
+  .layer2 {
+    background-image: url('./assets/wave2.svg');
   }
 
   @media (max-width: 575px) {
