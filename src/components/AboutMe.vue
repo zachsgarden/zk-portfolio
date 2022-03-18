@@ -1,8 +1,8 @@
 <template>
-    <div>
-        <section>
-            <div class="row">
-                <p>Let's cut to the quick...</p>
+    <section class="flexed container-sm" id="about">
+        <div class="row">
+            <div class="col-7 d-flex flex-column justify-content-center">
+                <h2>Let's cut to the chase</h2>
                 <p>I am a front-end software developer who has experience building full-stack vue and react
                     applications. I
                     have
@@ -12,8 +12,11 @@
                     maximize
                     human freedom.</p>
             </div>
-        </section>
-    </div>
+            <div class="col-5 medicine-man">
+                Chase
+            </div>
+        </div>
+    </section>
 </template>
 
 <script>
@@ -27,5 +30,13 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+    section {
+        background: var(--light);
+        color: var(--dark);
+        /* margin-top: -12em; */
+    }
 
+    .medicine-man {
+        content: url("../assets/medicine.svg");
+    }
 </style>
